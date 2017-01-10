@@ -1,13 +1,16 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
-    $("#buddha-showing").fadeToggle();
-    $("#buddha-hidden").fadeToggle() ;
+  $("button#green").click(function() {
+    $("body").removeClass();
+    $("body").addClass("green-background");
   });
-});
 
-$(document).ready(function() {
-  $(".clickable1").click(function() {
-    $("#buddha").fadeToggle();
-    $("#buddha").fadeToggle() ;
+  $("button#yellow").click(function() {
+    $("body").removeClass();
+    $("body").addClass("yellow-background");
+  });
+
+  $("button#red").click(function() {
+    $("body").removeClass();
+    $("body").addClass("red-background");
   });
 });
