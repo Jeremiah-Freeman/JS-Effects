@@ -3,8 +3,9 @@
   display: none;
 }
 
-
-
+#walrus-smile-showing{
+  display: none;
+}
 .clickable:hover {
   text-decoration: underline;
 }
@@ -16,4 +17,14 @@
 
 .clickable:hover {
   text-decoration: underline;
+}
+
+
+.clickable1:hover {
+  text-decoration: underline;
+}
+
+.clickable1 {
+  cursor: pointer;
+  color: #0088cc;
 }
