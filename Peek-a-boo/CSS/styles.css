@@ -1,11 +1,7 @@
-.green-background {
-  background-color: green;
-}
 
-.yellow-background {
-  background-color: yellow;
-}
 
-.red-background {
+p .controlWhite {
+  color: green
   background-color: red;
+
 }
